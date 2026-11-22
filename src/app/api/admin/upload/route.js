@@ -21,8 +21,12 @@ export async function POST(request) {
   }
   const folder = String(form.get('folder') || 'project-covers');
   const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, '_');
-  const blob = await put(`${folder}/${Date.now()}-${safeName}`, file, {
-    access: 'public',
-  });
-  return NextResponse.json({ url: blob.url });
+  try {
+    const blob = await put(`${folder}/${Date.now()}-${safeName}`, file, {
+      access: 'public',
+    });
+    return NextResponse.json({ url: blob.url });
+  } catch (e) {
+    return NextResponse.json({ error: `Blob upload failed: ${e.message || e}` }, { status: 500 });
+  }
 }
