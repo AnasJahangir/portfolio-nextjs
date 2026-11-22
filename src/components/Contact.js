@@ -29,42 +29,47 @@ export default function Contact() {
     }
   }
 
+  const inputCls =
+    'w-full bg-transparent border-0 border-b border-border rounded-none px-0 py-3 text-heading placeholder:text-text/60 focus:outline-none focus:border-accent transition-colors';
+
   return (
-    <section id="contact" className="max-w-6xl mx-auto px-6 py-24 scroll-mt-20">
-      <SectionHeading number="06" title="Get In Touch" />
-      <div className="grid md:grid-cols-2 gap-12">
-        <Reveal>
+    <section id="contact" className="max-w-3xl mx-auto px-6 py-16 scroll-mt-20">
+      <SectionHeading title="Contact" />
+      <Reveal>
+        <div className="text-center">
           <h3 className="font-display text-3xl md:text-4xl font-bold text-heading leading-tight">
-            Let&apos;s build something great.
+            Let&apos;s build something.
           </h3>
-          <p className="mt-5 leading-relaxed">
+          <p className="mt-4 leading-relaxed max-w-md mx-auto">
             My inbox is always open — whether you have a project in mind, a question, or just
-            want to say hello. I&apos;ll do my best to get back to you.
+            want to say hello.
           </p>
-          <p className="mt-6 font-mono text-accent">
-            <a href="mailto:anasjahangir00@gmail.com" className="hover:underline">
-              anasjahangir00@gmail.com
-            </a>
-          </p>
-          <p className="mt-2 text-text-light">Karachi, Pakistan</p>
-        </Reveal>
-        <Reveal delay={0.12}>
+          <a
+            href="mailto:anasjahangir00@gmail.com"
+            className="mt-5 inline-block text-lg text-accent hover:underline"
+          >
+            anasjahangir00@gmail.com
+          </a>
+          <p className="mt-2 text-sm">Karachi, Pakistan</p>
+        </div>
+      </Reveal>
+      <Reveal delay={0.1}>
+        <div className="max-w-xl mx-auto mt-12">
           {status === 'success' ? (
-            <div className="bg-panel border border-accent/50 rounded-lg p-8 text-center" role="status">
-              <p className="text-2xl" aria-hidden="true">✓</p>
-              <h4 className="font-display text-xl font-semibold text-heading mt-3">Message sent</h4>
+            <div className="text-center py-8" role="status">
+              <p className="font-display text-xl font-semibold text-heading">Message sent</p>
               <p className="mt-2">Thanks for reaching out — I&apos;ll reply soon.</p>
               <button
                 onClick={() => setStatus('idle')}
-                className="mt-6 px-5 py-2 border border-accent text-accent rounded font-mono text-sm hover:bg-accent/10 transition-colors"
+                className="mt-6 text-sm text-accent hover:underline"
               >
                 Send another message
               </button>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="contact-name" className="block font-mono text-sm text-text-light mb-2">
+                <label htmlFor="contact-name" className="block text-xs uppercase tracking-[0.18em] text-text mb-1">
                   Name
                 </label>
                 <input
@@ -73,12 +78,12 @@ export default function Contact() {
                   required
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  className="w-full bg-panel border border-border rounded px-4 py-3 text-heading placeholder:text-text/60 focus:outline-none focus:border-accent transition-colors"
+                  className={inputCls}
                   placeholder="Your name"
                 />
               </div>
               <div>
-                <label htmlFor="contact-email" className="block font-mono text-sm text-text-light mb-2">
+                <label htmlFor="contact-email" className="block text-xs uppercase tracking-[0.18em] text-text mb-1">
                   Email
                 </label>
                 <input
@@ -87,21 +92,21 @@ export default function Contact() {
                   required
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  className="w-full bg-panel border border-border rounded px-4 py-3 text-heading placeholder:text-text/60 focus:outline-none focus:border-accent transition-colors"
+                  className={inputCls}
                   placeholder="you@example.com"
                 />
               </div>
               <div>
-                <label htmlFor="contact-message" className="block font-mono text-sm text-text-light mb-2">
+                <label htmlFor="contact-message" className="block text-xs uppercase tracking-[0.18em] text-text mb-1">
                   Message
                 </label>
                 <textarea
                   id="contact-message"
                   required
-                  rows={5}
+                  rows={4}
                   value={form.message}
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
-                  className="w-full bg-panel border border-border rounded px-4 py-3 text-heading placeholder:text-text/60 focus:outline-none focus:border-accent transition-colors resize-y"
+                  className={`${inputCls} resize-y`}
                   placeholder="Tell me about your project..."
                 />
               </div>
@@ -111,14 +116,14 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={status === 'sending'}
-                className="px-6 py-3 rounded bg-accent text-navy font-mono text-sm font-semibold hover:bg-accent-dim transition-colors disabled:opacity-60"
+                className="px-6 py-3 rounded-full bg-accent text-navy text-sm font-semibold hover:bg-accent-dim transition-colors disabled:opacity-60"
               >
                 {status === 'sending' ? 'Sending...' : 'Send Message'}
               </button>
             </form>
           )}
-        </Reveal>
-      </div>
+        </div>
+      </Reveal>
     </section>
   );
 }

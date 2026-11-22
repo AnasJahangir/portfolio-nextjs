@@ -19,35 +19,35 @@ export default function Testimonials({ testimonials }) {
   const current = testimonials[index];
 
   return (
-    <section id="testimonials" className="max-w-6xl mx-auto px-6 py-24 scroll-mt-20">
-      <SectionHeading number="05" title="Testimonials" />
+    <section id="testimonials" className="max-w-3xl mx-auto px-6 py-16 scroll-mt-20">
+      <SectionHeading title="Kind words" />
       <Reveal>
-        <figure className="max-w-3xl mx-auto text-center bg-panel border border-border rounded-lg p-8 md:p-10">
-          <blockquote className="text-lg md:text-xl leading-relaxed text-heading">
+        <figure className="max-w-2xl mx-auto text-center">
+          <blockquote className="text-xl md:text-2xl leading-relaxed text-heading font-display">
             &ldquo;{current.message}&rdquo;
           </blockquote>
-          <figcaption className="mt-6">
-            <p className="font-semibold text-accent">{current.name}</p>
-            {current.role && <p className="font-mono text-sm text-text mt-1">{current.role}</p>}
+          <figcaption className="mt-5 text-sm">
+            <span className="font-medium text-heading">{current.name}</span>
+            {current.role && <span className="text-text"> — {current.role}</span>}
           </figcaption>
           {testimonials.length > 1 && (
-            <div className="flex items-center justify-center gap-4 mt-8">
+            <div className="flex items-center justify-center gap-4 mt-8 text-sm">
               <button
                 onClick={() => setIndex((index - 1 + testimonials.length) % testimonials.length)}
-                className="px-4 py-2 border border-border rounded text-text-light hover:text-accent hover:border-accent transition-colors"
+                className="text-text hover:text-heading transition-colors"
                 aria-label="Previous testimonial"
               >
-                ←
+                ← Prev
               </button>
-              <span className="font-mono text-sm text-text" aria-live="polite">
+              <span className="text-text" aria-live="polite">
                 {index + 1} / {testimonials.length}
               </span>
               <button
                 onClick={() => setIndex((index + 1) % testimonials.length)}
-                className="px-4 py-2 border border-border rounded text-text-light hover:text-accent hover:border-accent transition-colors"
+                className="text-text hover:text-heading transition-colors"
                 aria-label="Next testimonial"
               >
-                →
+                Next →
               </button>
             </div>
           )}

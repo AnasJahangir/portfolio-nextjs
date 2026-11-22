@@ -31,22 +31,15 @@ const SERVICES = [
 
 export default function Services() {
   return (
-    <section id="services" className="max-w-6xl mx-auto px-6 py-24 scroll-mt-20">
-      <SectionHeading number="04" title="What I Do" />
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <section id="services" className="max-w-3xl mx-auto px-6 py-16 scroll-mt-20">
+      <SectionHeading title="What I do" />
+      <div className="divide-y divide-border border-y border-border">
         {SERVICES.map((s, i) => (
-          <Reveal key={s.title} delay={(i % 3) * 0.08}>
-            <div className="h-full bg-panel border border-border rounded-lg p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/50">
-              <h3 className="font-display text-lg font-semibold text-heading">{s.title}</h3>
-              <p className="mt-3 text-[15px] leading-relaxed">{s.desc}</p>
-              <ul className="mt-4 space-y-1.5 font-mono text-xs text-text-light">
-                {s.points.map((pt) => (
-                  <li key={pt} className="flex items-center gap-2">
-                    <span className="text-accent" aria-hidden="true">▸</span>
-                    {pt}
-                  </li>
-                ))}
-              </ul>
+          <Reveal key={s.title} delay={i * 0.04}>
+            <div className="py-6">
+              <h3 className="text-lg font-medium text-heading">{s.title}</h3>
+              <p className="mt-1.5 leading-relaxed">{s.desc}</p>
+              <p className="mt-2 text-sm text-text">{s.points.join(' · ')}</p>
             </div>
           </Reveal>
         ))}
