@@ -6,12 +6,10 @@
 /out/
 
 # env
-.env
 .env*.local
-.env.development
-.env.production
 
 # misc
 .DS_Store
 *.log
 .vercel
+config.bat

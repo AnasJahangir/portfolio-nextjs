@@ -74,7 +74,7 @@ export const seedArchiveProjects = [
     order_index: 1,
     ios: '',
     android: '',
-    cover_image: '/images/dokyai.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375677585-dokyai.jpg',
     created_at: '2026-11-22',
   },
   {
@@ -89,7 +89,7 @@ export const seedArchiveProjects = [
     order_index: 2,
     ios: '',
     android: '',
-    cover_image: '/images/smartmedics.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375681226-smartmedics.jpg',
     created_at: '2026-11-22',
   },
   {
@@ -104,7 +104,7 @@ export const seedArchiveProjects = [
     order_index: 3,
     ios: '',
     android: '',
-    cover_image: '/images/medschein.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375682465-medschein.jpg',
     created_at: '2026-11-22',
   },
   {
@@ -149,7 +149,7 @@ export const seedArchiveProjects = [
     order_index: 6,
     ios: '',
     android: '',
-    cover_image: '/images/evergreen-obits.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375683812-evergreen-obits.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -164,7 +164,7 @@ export const seedArchiveProjects = [
     order_index: 7,
     ios: '',
     android: '',
-    cover_image: '/images/qwikio.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375685661-qwikio.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -179,7 +179,7 @@ export const seedArchiveProjects = [
     order_index: 8,
     ios: '',
     android: '',
-    cover_image: '/images/your-reviews.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375689796-your-reviews.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -194,7 +194,7 @@ export const seedArchiveProjects = [
     order_index: 9,
     ios: '',
     android: '',
-    cover_image: '/images/easy1staking.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375691047-easy1staking.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -209,7 +209,7 @@ export const seedArchiveProjects = [
     order_index: 10,
     ios: '',
     android: '',
-    cover_image: '/images/venere-group.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375692177-venere-group.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -224,7 +224,7 @@ export const seedArchiveProjects = [
     order_index: 11,
     ios: '',
     android: '',
-    cover_image: '/images/back2basic.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375693236-back2basic.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -239,7 +239,7 @@ export const seedArchiveProjects = [
     order_index: 12,
     ios: '',
     android: '',
-    cover_image: '/images/syria-souq.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375694562-syria-souq.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -254,7 +254,7 @@ export const seedArchiveProjects = [
     order_index: 13,
     ios: '',
     android: '',
-    cover_image: '/images/yoshiro-digital.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375695614-yoshiro-digital.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -269,7 +269,7 @@ export const seedArchiveProjects = [
     order_index: 14,
     ios: '',
     android: '',
-    cover_image: '/images/diasspora.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375696790-diasspora.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -284,7 +284,7 @@ export const seedArchiveProjects = [
     order_index: 15,
     ios: '',
     android: '',
-    cover_image: '/images/gym-website.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375697907-gym-website.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -299,7 +299,7 @@ export const seedArchiveProjects = [
     order_index: 16,
     ios: '',
     android: '',
-    cover_image: '/images/linco.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375698977-linco.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -314,7 +314,7 @@ export const seedArchiveProjects = [
     order_index: 17,
     ios: '',
     android: '',
-    cover_image: '/images/shopmap.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375699990-shopmap.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -329,7 +329,7 @@ export const seedArchiveProjects = [
     order_index: 18,
     ios: '',
     android: '',
-    cover_image: '/images/g31-nft.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375701062-g31-nft.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -344,7 +344,7 @@ export const seedArchiveProjects = [
     order_index: 19,
     ios: '',
     android: '',
-    cover_image: '/images/lodo-ai.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375702266-lodo-ai.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -359,7 +359,7 @@ export const seedArchiveProjects = [
     order_index: 20,
     ios: '',
     android: '',
-    cover_image: '/images/clevipicks.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375703236-clevipicks.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -374,7 +374,7 @@ export const seedArchiveProjects = [
     order_index: 21,
     ios: '',
     android: '',
-    cover_image: '/images/interview-dashboard.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375704393-interview-dashboard.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -389,7 +389,7 @@ export const seedArchiveProjects = [
     order_index: 22,
     ios: '',
     android: '',
-    cover_image: '/images/askpandia.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375705465-askpandia.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -404,7 +404,7 @@ export const seedArchiveProjects = [
     order_index: 23,
     ios: '',
     android: '',
-    cover_image: '/images/tgi-fridays.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375706575-tgi-fridays.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -419,7 +419,7 @@ export const seedArchiveProjects = [
     order_index: 24,
     ios: '',
     android: '',
-    cover_image: '/images/taste-it.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375707902-taste-it.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -434,7 +434,7 @@ export const seedArchiveProjects = [
     order_index: 25,
     ios: '',
     android: '',
-    cover_image: '/images/strategy-scoreboard.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375708946-strategy-scoreboard.jpg',
     created_at: '2026-11-23',
   },
   {
@@ -449,7 +449,7 @@ export const seedArchiveProjects = [
     order_index: 26,
     ios: '',
     android: '',
-    cover_image: '/images/bitcoin-ai.jpg',
+    cover_image: 'https://ztqydxqhsnxr5uve.public.blob.vercel-storage.com/project-covers/1795375710015-bitcoin-ai.jpg',
     created_at: '2026-11-23',
   },
 ];

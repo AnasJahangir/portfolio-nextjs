@@ -1,1 +1,28 @@
-{"dependencies":{"@libsql/client":"^0.15.0","@vercel/blob":"^1.0.0","framer-motion":"^12.0.0","jose":"^6.0.0","next":"^15.3.0","react":"^19.1.0","react-dom":"^19.1.0","resend":"^4.0.0"},"description":"Anas Jahangir — Full-Stack Developer portfolio (Next.js 15, Turso, Vercel Blob)","devDependencies":{"@tailwindcss/postcss":"^4.0.0","eslint":"^9.0.0","eslint-config-next":"^15.3.0","tailwindcss":"^4.0.0"},"name":"portfolio-nextjs","private":true,"scripts":{"build":"next build","dev":"next dev","lint":"next lint","start":"next start"},"version":"1.0.0"}
+{
+  "dependencies": {
+    "@libsql/client": "^0.15.0",
+    "@vercel/blob": "^1.0.0",
+    "framer-motion": "^12.0.0",
+    "jose": "^6.0.0",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "resend": "^4.0.0"
+  },
+  "description": "Anas Jahangir \u2014 Full-Stack Developer portfolio (Next.js 15, Turso, Vercel Blob)",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.3.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "name": "portfolio-nextjs",
+  "private": true,
+  "scripts": {
+    "build": "node init && next build",
+    "dev": "node init && next dev",
+    "lint": "next lint",
+    "start": "node init && next start"
+  },
+  "version": "1.0.0"
+}
