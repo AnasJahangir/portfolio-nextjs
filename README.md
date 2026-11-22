@@ -35,7 +35,7 @@ connected" notice.
 | `ADMIN_PASSWORD` | Yes, for /admin | Password for the admin panel |
 | `ADMIN_JWT_SECRET` | No | JWT signing secret (defaults to `ADMIN_PASSWORD`) |
 | `RESEND_API_KEY` | No | Contact-form email notifications via Resend |
-| `CONTACT_TO_EMAIL` | No | Where contact notifications go (default `anas@anasjahangir.com`) |
+| `CONTACT_TO_EMAIL` | No | Where contact notifications go (default `anasjahangir00@gmail.com`) |
 | `BLOB_READ_WRITE_TOKEN` | No | Image uploads in /admin via Vercel Blob |
 
 ## Turso setup (free, never pauses)

@@ -74,11 +74,11 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="mailto:anas@anasjahangir.com"
+            href="mailto:anasjahangir00@gmail.com"
             aria-label="Email"
             className="text-text-light hover:text-accent transition-colors font-mono text-sm"
           >
-            anas@anasjahangir.com
+            anasjahangir00@gmail.com
           </a>
         </motion.div>
       </motion.div>

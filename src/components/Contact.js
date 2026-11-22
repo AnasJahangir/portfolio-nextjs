@@ -42,8 +42,8 @@ export default function Contact() {
             want to say hello. I&apos;ll do my best to get back to you.
           </p>
           <p className="mt-6 font-mono text-accent">
-            <a href="mailto:anas@anasjahangir.com" className="hover:underline">
-              anas@anasjahangir.com
+            <a href="mailto:anasjahangir00@gmail.com" className="hover:underline">
+              anasjahangir00@gmail.com
             </a>
           </p>
           <p className="mt-2 text-text-light">Karachi, Pakistan</p>

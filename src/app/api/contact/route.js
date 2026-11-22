@@ -46,7 +46,7 @@ export async function POST(request) {
       const resend = new Resend(process.env.RESEND_API_KEY);
       await resend.emails.send({
         from: 'Portfolio Contact <onboarding@resend.dev>',
-        to: process.env.CONTACT_TO_EMAIL || 'anas@anasjahangir.com',
+        to: process.env.CONTACT_TO_EMAIL || 'anasjahangir00@gmail.com',
         subject: `New portfolio message from ${name}`,
         text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
       });
